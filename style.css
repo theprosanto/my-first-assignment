@@ -1,6 +1,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     color: #333333;
+    margin: 8%;
 }
 .section-one{
     display: flex;
@@ -13,6 +14,12 @@ body{
     color: white;
     text-decoration: none;
     background-color: #ff5959;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 3px;
+}
+.my-bio{
+    padding-right: 20%;
+}
+h1{
+    font-size: 55px;
 }
