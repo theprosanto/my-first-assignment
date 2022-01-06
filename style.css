@@ -9,3 +9,10 @@ body{
 .color-orange{
     color: orange;
 }
+.all-button{
+    color: white;
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
