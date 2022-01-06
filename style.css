@@ -60,3 +60,46 @@ h4{
     padding:5%;
     border-radius: 5%;
 }
+.right{
+    flex: 1;
+    margin-left: 30px];
+}
+.right .line{
+    margin-bottom: 50px;
+}
+.right .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .info span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.right .bars{
+    background-color: lightgray;
+    height: 8px;
+    width: 100%;
+    position: relative;
+}
+.right .bars::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    background-color: #ff5959;
+}
+.right .html::before{
+    width: 95%;
+}
+.right .css::before{
+    width: 90%;
+}
+.right .php::before{
+    width: 45%;
+}
+.right .js::before{
+    width: 55%;
+}
+.skills{
+    text-align: center;
+}
